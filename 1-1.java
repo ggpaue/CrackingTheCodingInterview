@@ -1,4 +1,12 @@
-
+/**
+ * 
+ * Implement an algorithm to determine if a string has all unique characters. 
+ * What if you cannot use additional data structures. 
+ * 
+ * 
+ **/
+ 
+ 
 public class Solution {
 	public static boolean isUniqueChars(String str) {
 		if(str.length() > 256) return false;
