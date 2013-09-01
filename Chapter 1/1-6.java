@@ -8,7 +8,6 @@
  *
  */
 
-
 public class Solution {
 	public static void rotate(int[][] matrix) {
 		int len = matrix.length;
