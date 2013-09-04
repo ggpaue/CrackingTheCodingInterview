@@ -1,3 +1,8 @@
+/**
+ * 
+ * Implement an algorithm to find the kth to last element of a singly linked list.
+ * 
+ **/
 
 public class Solution {
 	public static ListNode findKthToLast(ListNode head, int k) {
