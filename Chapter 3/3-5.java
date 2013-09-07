@@ -1,4 +1,9 @@
-
+/**
+ * 
+ * Implement a MyQueue class which implements a queue using two stacks. 
+ * 
+ */
+ 
 class MyQueue {
 	ARStack stack1 = new ARStack();
 	ARStack stack2 = new ARStack();
