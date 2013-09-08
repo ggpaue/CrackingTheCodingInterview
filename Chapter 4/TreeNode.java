@@ -8,6 +8,10 @@ public class TreeNode {
 	int level;
 	TreeNode parent = null;
 	
+	TreeNode(int x) {
+		val = x;
+	}
+	
 	public TreeNode(int v, int level) {
 		this.val = v;
 		this.level = level;
