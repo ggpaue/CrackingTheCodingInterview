@@ -31,7 +31,7 @@ public class Solution {
 	public static void main(String[] args) {
 		int[] A = {3, 7, 20, 25, 0, 0, 0, 0, 0, 0};
 		int[] B = {1, 2, 6, 10, 16, 30};
-		merge(A, 3, B, B.length);
+		merge(A, 4, B, B.length);
 		for(int x : A) {
 			System.out.print(x + ", ");
 		}
