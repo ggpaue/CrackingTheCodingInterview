@@ -6,7 +6,7 @@
  * 
  */
 
-public class Solution {
+public class Solution { 
 	public static boolean permutation(String s, String t) {
 		if(s.length() != t.length()) return false;
 		int[] letters = new int[256];
